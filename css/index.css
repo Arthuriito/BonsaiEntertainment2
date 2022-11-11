@@ -1,0 +1,815 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+body{       
+    overflow-x: hidden;
+}
+.img1{
+    position: absolute;
+    left: 51%;
+    object-fit: cover;
+    width: 435px;
+    height: 435px;
+    border-radius: 50%;
+    margin-top: 100px;
+    transition: 500ms ease 100ms;
+}
+
+.img2{
+    position: absolute;
+    left: 26%;
+    object-fit: cover;
+    width: 435px;
+    height: 435px;
+    border-radius: 50%;
+    margin-top: 100px;
+    transition: 500ms ease 100ms;
+}
+.img3{
+    position: absolute;
+    left: 1%;
+    object-fit: cover;
+    width: 435px;
+    height: 435px;
+    border-radius: 50%;
+    margin-top: 100px;
+    transition: 500ms ease 100ms;
+}
+.img4{
+    position: absolute;
+    left: 76%;
+    object-fit: cover;
+    width: 435px;
+    height: 435px;
+    border-radius: 50%;
+    margin-top: 100px;
+    transition: 500ms ease 100ms;
+}
+.img1:hover{
+   width: 460px;
+   height: 460px;
+   position: absolute;
+   opacity: 50%;
+}
+.img2:hover{
+    width: 460px;
+    height: 460px;
+    position: absolute;
+    opacity: 50%;
+ }
+ .img3:hover{
+    width: 460px;
+    height: 460px;
+    position: absolute;
+    opacity: 50%;
+ }
+ .img4:hover{
+    width: 460px;
+    height: 460px;
+    position: absolute;
+    opacity: 50%;
+ }
+#jog{
+    color: white;
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 130px;
+    width: 1100px;
+    height: auto;
+    text-align:justify;
+    left: 5%;
+    position: absolute;
+    margin-top: 100px;
+}
+
+#mus{
+    color: white;
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 130px;
+    width: 1100px;
+    height: auto;
+    text-align:justify;
+    left: 27.4%;
+    position: absolute;
+    margin-top: 100px;
+
+}
+#ser{
+    color: white;
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 130px;
+    width: 1100px;
+    height: auto;
+    text-align:justify;
+    left: 54%;
+    position: absolute;
+    margin-top: 100px;
+
+}
+#fil{
+    color: white;
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 130px;
+    width: 1100px;
+    height: auto;
+    text-align:justify;
+    left: 79%;
+    position: absolute;
+    margin-top: 100px;
+
+}
+
+*{
+    margin: -8;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: white;
+}
+
+#start{
+    background-color: rgb(29, 189, 136);
+    width: 100.83%;
+    height: 100px;
+    top: auto;
+    margin: -8px;
+    font-size:medium;
+    margin-top: -30px;
+}
+#start img{
+    position: absolute;
+    padding-left: 53px;
+    width: 83px;
+    margin-top: 5px;
+}
+#Fisk img{
+    position: absolute;
+    padding-left: 1800px;
+    width: 80px;
+    margin-top: -55px;
+}
+
+#start *{
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+}
+#start *:hover{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+#start ul{
+    display: flex;
+    padding-left: 640px;
+    width: 200px;
+    position: relative;
+    top: 30px;
+}
+#start ul li{
+    list-style-type: none;
+    padding-right: 200px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+#bodystyle{
+    background-color: rgb(73, 73, 73); 
+}
+#bb8{
+    background-color: rgb(255, 255, 255);   
+}
+#body1{
+    width: 100%;
+    margin: -8px;
+    position: relative;
+    height: 800px;
+    min-height: 700px;
+}
+#body1 video{
+    width: 100.89%;
+    height: 119%;
+    object-fit: cover;
+}
+#body1 p{
+    font-size: 100px;
+    width: 870px;
+    height: -200px;
+    color: rgb(255, 255, 255);;
+    position: relative;
+    top: -870px;
+    left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#espacinho{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+}
+#body2 p{
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 70px;
+    width: 1100px;
+    height: 200px;
+    text-align:justify;
+    padding-left: 40px;
+    top: 1000px;
+}
+#body3{
+    width: 100%;
+    height: 710px;
+}
+#body3 p{
+    font-family: 'Jost', sans-serif;
+    font-style:inherit;
+    font-size: 35px;
+    text-align:justify;
+    width: 990px;
+    height: auto;
+    position: relative;
+    top: 0px;
+    left: 40px;
+}
+
+#body3 img{
+    padding-left: 1260px;
+    width: 750px;
+    position: relative;
+    top: -600px;
+    right: 180px;
+    height: auto;
+    
+}
+
+#menu{
+    background-color: rgba(0, 255, 170, 0.466);
+    margin: -8px;
+    height: 300px;
+    position: relative;
+}
+#plataforma1 p{
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 70px;
+    width: 1100px;
+    height: auto;
+    text-align:justify;
+    padding-left: 40px;
+    color: white;
+
+}
+#nhé{
+    width: 100%;
+    height: 820px;
+}
+#nhé img{
+        width: 400px;
+        position: absolute;
+        margin-top: -680px;
+        right: 600px;
+        display: inline-block;
+}
+#nhé iframe{
+    width: 540px;
+    height: 355px;
+    position: absolute;
+    margin-top: -520px;
+    right: 50px;
+}
+
+#nhé p{
+    font-family: 'Jost', sans-serif;
+    font-style:inherit;
+    font-size: 35px;
+    text-align:justify;
+    width: 800px;
+    height: auto;
+    position: relative;
+    top: 0px;
+    left: 60px;
+    color: white;
+
+}
+#nhé a{
+right: 1400px;
+background-color: rgba(235, 20, 20, 0.534);
+border-radius: 40px; 
+color: white;
+padding: 30px 50px;
+text-decoration: none;
+font-size: 35px;
+display: inline-block;
+font-size: 20px;
+position: relative;
+top: -540px;
+}
+#nhé a:hover{
+    background-color: rgba(255, 0, 0, 0.801);
+    border-radius: 40px; 
+    color: white;
+    padding: 40px 60px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    position: relative;
+    }
+#cadeirante{
+    height: 820px;
+}
+#cadeirante p{
+    padding: center;
+    text-decoration-color: white;
+}
+
+#filme1 img{
+    width: 100%;
+    height: 100%;
+    filter: blur(10px);
+}
+#filme1{
+    width: 100%;
+    height: 860px;
+}
+
+#filme2 img{
+    width: 1000px;
+    height: 850px;
+    position: absolute;
+    margin-top: -805px;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0, 0.800));
+    left: -5%;
+}
+#ih img{
+    width: 200px;
+    height: 170px;
+    position: absolute;
+    margin-top: -750px;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0, 0.800));
+    left: 30%;
+}
+#tué img{
+    width: 200px;
+    height: 175px;
+    position: absolute;
+    margin-top: -750px;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0, 0.800));
+    left: 39%;
+}
+#serie1 img{
+    width: 100%;
+    height: 100%;
+    filter: blur(10px);
+}
+#serie1{
+    width: 100%;
+    height: 860px;
+}
+#serie2 img{
+    width: 720px;
+    height: 850px;
+    position: absolute;
+    margin-top: -812px;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0, 0.800));
+}
+#jogos1 img{
+    width: 100%;
+    height: 100%;
+    filter: blur(10px);
+}
+#jogos1{
+    width: 100%;
+    height: 860px;
+}
+#jogos2 img{
+    width: 700px;
+    height: 800px;
+    position: absolute;
+    margin-top: -808px;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0, 0.800));
+    left: 63.20%;
+}
+#musica1 img{
+    width: 100%;
+    height: 100%;
+    filter: blur(10px);
+}
+#musica1{
+    width: 100%;
+    height: 860px;
+}
+#musica2 img{
+    width: 700px;
+    height: 800px;
+    position: absolute;
+    margin-top: -804px;
+    filter: drop-shadow(20px 25px 20px rgba(0,0,0, 0.800));
+    left: 63.20%;
+}
+#Disney img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 40%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Disney img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Star img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 50%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Star img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Hbo img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 60%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Hbo img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Paramount img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 70%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Paramount img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Prime img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 80%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Prime img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Netflix img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 90%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Netflix img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Spotify img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 1%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Spotify img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Amazon img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 10%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Amazon img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#YouTube img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 20%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#YouTube img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Deezer img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 30%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Deezer img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Apple img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 40%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Apple img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Shazam img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 50%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Shazam img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Xbox img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 1%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Xbox img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Playstation img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 10%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Playstation img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Nintendo img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 20%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Nintendo img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Steam img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 30%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Steam img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Epic img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 40%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Epic img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#primegaming img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 50%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#primegaming img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#centerplex img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 40%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#centerplex img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#uci img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 50%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#uci img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#cinepolis img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 60%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#cinepolis img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#cinemark img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 70%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#cinemark img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#kineplex img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 80%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#kineplex img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#arcoplex img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 90%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#arcoplex img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+
+

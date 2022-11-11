@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+
+body{
+    background-color: rgb(73, 73, 73); 
+}
+
+.texto{
+    font-family: 'Ramabhadra', sans-serif;
+    text-align: center;
+    color: white;
+}
+.img1{
+    position: absolute;
+    left: 73.3%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: -165px;
+}
+.img2{
+    position: absolute;
+    left: 43.3%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: -165px;
+}
+.img3{
+    position: absolute;
+    left: 13.3%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: -165px;
+}
+div.tres {
+    width: 30px;
+    height: 50px;
+    border: 150px solid;
+    border-color: rgba(255, 255, 255, 0.89);
+    position: absolute;
+    left: 72.5%;
+    margin-top: -180px;
+}
+div.tresinho {
+    width: 30px;
+    height: 50px;
+    border: 150px solid;
+    border-color: rgba(255, 255, 255, 0.89);
+    position: absolute;
+    left: 42.5%;
+    margin-top: -180px;
+}
+div.tresão {
+    width: 30px;
+    height: 50px;
+    border: 150px solid;
+    border-color: rgba(255, 255, 255, 0.89);
+    position: absolute;
+    left: 12.5%;
+    margin-top: -180px;
+}
+*{
+    margin: -8;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: white;
+}
+#start{
+    background-color: rgb(29, 189, 136);
+    width: 100.83%;
+    height: 100px;
+    top: auto;
+    margin: -8px;
+    font-size:medium;
+    margin-top: -30px;
+}
+#start img{
+    position: absolute;
+    padding-left: 53px;
+    width: 83px;
+    margin-top: 5px;
+}
+#Fisk img{
+    position: absolute;
+    padding-left: 1800px;
+    width: 80px;
+    margin-top: -55px;
+}
+body{
+    overflow-x: hidden;
+}
+#start *{
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+}
+#start *:hover{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+#start ul{
+    display: flex;
+    padding-left: 640px;
+    width: 200px;
+    position: relative;
+    top: 30px;
+}
+#start ul li{
+    list-style-type: none;
+    padding-right: 200px;
+}
+#bodystyle{
+    background-color: rgb(73, 73, 73); 
+
+}
+#body1{
+    width: 100%;
+    margin: -8px;
+    position: relative;
+    height: 750px;
+}
+#body1 video{
+    width: 110%;
+    height: 119%;
+    object-fit: cover;
+}
+#body1 img{
+    width: 70%;
+    height: 200%;
+    object-fit: cover;
+}
+
+#body1 p{
+    font-size: 100px;
+    width: 1000px;
+    height: -200px;
+    color: white;
+    position: relative;
+    top: -700px;
+    left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#bb8{
+    background-color: rgb(73, 73, 73); 
+}
+#espacinho{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+}
+#paia{
+    height: 1000px;
+    width: 120px;
+}

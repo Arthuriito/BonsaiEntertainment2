@@ -1,0 +1,792 @@
+*{
+    margin: -8;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: white;
+}
+#start{
+    background-color: rgb(29, 189, 136);
+    width: 100.83%;
+    height: 100px;
+    top: auto;
+    margin: -8px;
+    font-size:medium;
+    margin-top: -30px;
+}
+#start img{
+    position: absolute;
+    padding-left: 53px;
+    width: 83px;
+    margin-top: 5px;
+}
+#Fisk img{
+    position: absolute;
+    padding-left: 1800px;
+    width: 80px;
+    margin-top: -55px;
+}
+body{
+    overflow-x: hidden;
+}
+#start *{
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+}
+#start *:hover{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+#start ul{
+    display: flex;
+    padding-left: 640px;
+    width: 200px;
+    position: relative;
+    top: 30px;
+}
+#start ul li{
+    list-style-type: none;
+    padding-right: 200px;
+}
+#bodystyle{
+    background-color: rgb(73, 73, 73);   
+}
+#bb8{
+    background-color: rgb(255, 255, 255);   
+}
+#body1{
+    background-color: rgb(14, 1, 17);
+    width: auto;
+    margin: -8px;
+    position: relative;
+    height: 700px;
+}
+#body1 img{
+    width: 100%;
+    height: 130%;
+    object-fit: cover;
+}
+#body1 p{
+    font-size: 100px;
+    width: 820px;
+    height: -200px;
+    color: rgb(255, 255, 255);;
+    position: relative;
+    top: -970px;
+    left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#espacinho{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+}
+#body2 p{
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 70px;
+    width: 1100px;
+    height: 200px;
+    text-align:justify;
+    padding-left: 40px;
+    top: 1000px;
+}
+#body3{
+    width: auto;
+    height: 550px;
+}
+#body3 p{
+    font-family: 'Jost', sans-serif;
+    font-style:inherit;
+    font-size: 35px;
+    text-align:justify;
+    width: 900px;
+    height: auto;
+    position: relative;
+    top: 0px;
+    left: 40px;
+}
+
+#body3 img{
+    padding-left: 1140px;
+    width: 750px;
+    position: relative;
+    top: -490px;
+    right: 170px;
+    height: auto;
+    border: 5px solid rgba(45, 42, 119, 0.349);
+    border-radius: 10px;
+}
+#menu{
+    background-color: rgba(0, 255, 170, 0.466);
+    margin: -8px;
+    height: 300px;
+    position: relative;
+}
+#plataforma1 p{
+    color: white;
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 70px;
+    width: 1100px;
+    height: auto;
+    text-align:justify;
+    padding-left: 40px;
+}
+#plataforma2{
+    width: auto;
+    height: 550px;
+}
+#plataforma2 img{
+        padding-left: 1140px;
+        width: 400px;
+        position: relative;
+        top: -500px;
+        right: 100px;
+        border: 5px solid rgba(235, 20, 20, 0.349);
+        border-radius: 10px;
+        display: inline-block;
+        filter: drop-shadow(30px 30px 30px rgba(0,0,0, 0.800));
+
+}
+#plataforma2 p{
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-style:inherit;
+    font-size: 35px;
+    text-align:justify;
+    width: 900px;
+    height: auto;
+    position: relative;
+    top: 0px;
+    left: 60px;
+}
+#plataforma2 a{
+right: 1400px;
+background-color: rgba(235, 20, 20, 0.534);
+border-radius: 40px; 
+color: white;
+padding: 30px 50px;
+text-decoration: none;
+font-size: 35px;
+display: inline-block;
+font-size: 20px;
+position: relative;
+top: -540px;
+}
+#plataforma2 a:hover{
+    background-color: rgba(255, 0, 0, 0.801);
+    border-radius: 40px; 
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    position: relative;
+    }
+#plataforma3{
+    width: auto;
+    height: 550px;
+}
+#plataforma31 p{
+    color: white;
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 70px;
+    width: 1100px;
+    height: auto;
+    text-align:justify;
+    padding-left: 100px;
+
+}
+#plataforma3 img{
+    padding-left: 1140px;
+    width: 500px;
+    position: relative;
+    top: -650px;
+    right: 80px;
+    border: 5px solid rgba(255, 105, 5, 0.349);
+    border-radius: 11px;
+    filter: drop-shadow(30px 30px 30px rgba(0,0,0, 0.800));
+
+}
+
+#plataforma3 p{
+font-family: 'Jost', sans-serif;
+font-style:inherit;
+font-size: 35px;
+text-align:justify;
+width: 900px;
+height: auto;
+position: relative;
+top: 0px;
+left: 100px;
+color: white;
+
+}
+#plataforma3 a{
+    right: 1500px;
+background-color: rgba(235, 124, 20, 0.534);
+border-radius: 40px; 
+color: white;
+padding: 30px 50px;
+text-decoration: none;
+font-size: 35px;
+display: inline-block;
+font-size: 20px;
+position: relative;
+top: -540px;
+    }
+    #plataforma3 a:hover{
+        background-color: rgba(255, 105, 5, 0.808);
+        border-radius: 40px; 
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        position: relative;
+        }
+#plataforma4{
+    width: auto;
+    height: 550px;
+
+}
+#plataforma41 p{
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 70px;
+    width: 1100px;
+    height: auto;
+    text-align:justify;
+    padding-left: 100px;
+    color: white;
+
+}
+#plataforma4 img{
+    padding-left: 1080px;
+    width: 850px;
+    position: relative;
+    top: -550px;
+    right: 80px;
+    border: 5px solid rgba(255, 209, 5, 0.349);
+    border-radius: 10px;
+    filter: drop-shadow(30px 30px 30px rgba(0,0,0, 0.800));
+
+}
+#plataforma4 p{
+font-family: 'Jost', sans-serif;
+font-style:inherit;
+font-size: 35px;
+text-align:justify;
+width: 900px;
+height: auto;
+position: relative;
+top: 0px;
+left: 100px;
+color: white;
+
+}
+#plataforma4 a{
+    right: -150px;
+    background-color: rgba(255, 252, 49, 0.637);
+    border-radius: 40px; 
+    color: white;
+    padding: 30px 50px;
+    text-decoration: none;
+    font-size: 35px;
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    top: -510px;
+    }
+    #plataforma4 a:hover{
+        background-color: rgba(255, 238, 0, 0.801);
+        border-radius: 40px; 
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        position: relative;
+        }
+#plataforma5{
+    width: auto;
+    height: 550px;
+
+}
+#plataforma51 p{
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 70px;
+    width: 1100px;
+    height: auto;
+    text-align:justify;
+    padding-left: 100px;
+    color: white;
+
+}
+#plataforma5 img{
+    padding-left: 1100px;
+    width: 540px;
+    position: relative;
+    top: -600px;
+    right: 80px;
+    border: 5px solid rgba(153, 90, 8, 0.349);
+    border-radius: 10px;
+    filter: drop-shadow(30px 30px 30px rgba(0,0,0, 0.800));
+
+}
+#plataforma5 p{
+font-family: 'Jost', sans-serif;
+font-style:inherit;
+font-size: 35px;
+text-align:justify;
+width: 900px;
+height: auto;
+position: relative;
+top: 0px;
+left: 100px;
+color: white;
+
+}
+#plataforma5 a{
+    right: 1500px;
+    background-color: rgba(153, 90, 8, 0.514);
+    border-radius: 40px; 
+    color: white;
+    padding: 30px 50px;
+    text-decoration: none;
+    font-size: 35px;
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    top: -540px;
+    }
+    #plataforma5 a:hover{
+        background-color: rgba(133, 80, 11, 0.74);
+        border-radius: 40px; 
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        position: relative;
+        }
+#plataforma6{
+    width: auto;
+    height: 380px;
+
+}
+#plataforma61 p{
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 70px;
+    width: 1100px;
+    height: auto;
+    text-align:justify;
+    padding-left: 100px;
+    color: white;
+
+}
+#plataforma6 img{
+    padding-left: 1100px;
+    width: 500px;
+    position: relative;
+    top: -400px;
+    right: 80px;
+    border: 5px solid rgba(51, 50, 5, 0.349);
+    border-radius: 10px;
+    filter: drop-shadow(30px 30px 30px rgba(0,0,0, 0.800));
+
+}
+#plataforma6 p{
+font-family: 'Jost', sans-serif;
+font-style:inherit;
+font-size: 35px;
+text-align:justify;
+width: 900px;
+height: auto;
+position: relative;
+top: 0px;
+left: 100px;
+color: white;
+
+}
+#plataforma6 a{
+    right: 1450px;
+    background-color: rgba(63, 62, 15, 0.623);
+    border-radius: 40px; 
+    color: white;
+    padding: 30px 50px;
+    text-decoration: none;
+    font-size: 35px;
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    top: -450px;
+    }
+    #plataforma6 a:hover{
+        background-color: rgba(51, 50, 5, 0.747);
+        border-radius: 40px; 
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        position: relative;
+        }
+#plataforma7{
+    width: auto;
+    height: 600px;
+
+}
+#plataforma71 p{
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 70px;
+    width: 1100px;
+    height: auto;
+    text-align:justify;
+    padding-left: 100px;
+    color: white;
+
+}
+#plataforma7 img{
+    padding-left: 1100px;
+    width: 560px;
+    position: relative;
+    top: -490px;
+    right: 80px;
+    border: 5px solid rgba(54, 238, 17, 0.349);
+    border-radius: 10px;
+    filter: drop-shadow(30px 30px 30px rgba(0,0,0, 0.800));
+
+}
+#plataforma7 p{
+font-family: 'Jost', sans-serif;
+font-style:inherit;
+font-size: 35px;
+text-align:justify;
+width: 900px;
+height: auto;
+position: relative;
+top: 0px;
+left: 100px;
+color: white;
+
+}
+#plataforma7 a{
+    right: 1500px;
+    background-color: rgba(70, 235, 20, 0.534);
+    border-radius: 40px; 
+    color: white;
+    padding: 30px 50px;
+    text-decoration: none;
+    font-size: 35px;
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    top: -530px;
+    }
+    #plataforma7 a:hover{
+        background-color: rgba(0, 255, 34, 0.801);
+        border-radius: 40px; 
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        position: relative;
+        }
+#plataforma8{
+    width: auto;
+    height: 550px;
+
+}
+#plataforma81 p{
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 70px;
+    width: 1100px;
+    height: auto;
+    text-align:justify;
+    padding-left: 100px;
+    color: white;
+
+}
+#plataforma8 img{
+    padding-left: 1100px;
+    width: 700px;
+    position: relative;
+    top: -530px;
+    right: 80px;
+    border: 5px solid rgba(196, 26, 26, 0.349);
+    border-radius: 10px;
+    filter: drop-shadow(30px 30px 30px rgba(0,0,0, 0.800));
+
+}
+#plataforma8 p{
+font-family: 'Jost', sans-serif;
+font-style:inherit;
+font-size: 35px;
+text-align:justify;
+width: 900px;
+height: auto;
+position: relative;
+top: 0px;
+left: 100px;
+color: white;
+
+}
+#plataforma8 a{
+    right: -150px;
+    background-color: rgba(194, 44, 44, 0.678);
+    border-radius: 40px; 
+    color: white;
+    padding: 30px 50px;
+    text-decoration: none;
+    font-size: 35px;
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    top: -570px;
+    }
+    #plataforma8 a:hover{
+        background-color: rgba(156, 18, 18, 0.801);
+        border-radius: 40px; 
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        position: relative;
+        }
+#plataforma9{
+    width: auto;
+    height: 450px;
+
+}
+#plataforma91 p{
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 70px;
+    width: 1100px;
+    height: auto;
+    text-align:justify;
+    padding-left: 100px;
+    color: white;
+
+}
+#plataforma9 img{
+    padding-left: 1150px;
+    width: 310px;
+    position: relative;
+    top: -520px;
+    right: 80px;
+    border: 5px solid rgba(199, 186, 73, 0.349);
+    border-radius: 10px;
+    filter: drop-shadow(30px 30px 30px rgba(0,0,0, 0.800));
+
+}
+#plataforma9 p{
+font-family: 'Jost', sans-serif;
+font-style:inherit;
+font-size: 35px;
+text-align:justify;
+width: 900px;
+height: auto;
+position: relative;
+top: 0px;
+left: 100px;
+color: white;
+
+}
+#plataforma9 a{
+    right: 1300px;
+    background-color: rgba(199, 186, 73, 0.616);
+    border-radius: 40px; 
+    color: white;
+    padding: 30px 50px;
+    text-decoration: none;
+    font-size: 35px;
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    top: -620px;
+    }
+    #plataforma9 a:hover{
+        background-color: rgba(199, 186, 73, 0.795);
+        border-radius: 40px; 
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        position: relative;
+        }
+#plataforma10{
+    width: auto;
+    height: 400px;
+
+}
+#plataforma101 p{
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 70px;
+    width: 1100px;
+    height: auto;
+    text-align:justify;
+    padding-left: 100px;
+    color: white;
+
+}
+#plataforma10 img{
+    padding-left: 1100px;
+    width: 500px;
+    position: relative;
+    top: -420px;
+    right: 80px;
+    border: 5px solid rgba(238, 17, 238, 0.349);
+    border-radius: 10px;
+    filter: drop-shadow(30px 30px 30px rgba(0,0,0, 0.800));
+
+}
+#plataforma10 p{
+font-family: 'Jost', sans-serif;
+font-style:inherit;
+font-size: 35px;
+text-align:justify;
+width: 900px;
+height: auto;
+position: relative;
+top: 0px;
+left: 100px;
+color: white;
+
+}
+#plataforma10 a{
+    right: 1450px;
+background-color: rgba(228, 35, 228, 0.575);
+border-radius: 40px; 
+color: white;
+padding: 30px 50px;
+text-decoration: none;
+font-size: 35px;
+display: inline-block;
+font-size: 20px;
+position: relative;
+top: -360px;
+    }
+    #plataforma10 a:hover{
+        background-color: rgba(255, 0, 255, 0.767);
+        border-radius: 40px; 
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        position: relative;
+        }
+#plataforma11{
+    width: auto;
+    height: 550px;
+
+}
+#plataforma111 p{
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 70px;
+    width: 1100px;
+    height: auto;
+    text-align:justify;
+    padding-left: 100px;
+    color: white;
+
+}
+#plataforma11 img{
+    padding-left: 1100px;
+    width: 500px;
+    position: relative;
+    top: -550px;
+    right: 80px;
+    border: 5px solid rgba(17, 39, 238, 0.349);
+    border-radius: 10px;
+    filter: drop-shadow(30px 30px 30px rgba(0,0,0, 0.800));
+
+}
+#plataforma11 p{
+font-family: 'Jost', sans-serif;
+font-style:inherit;
+font-size: 35px;
+text-align:justify;
+width: 900px;
+height: auto;
+position: relative;
+top: 0px;
+left: 100px;
+color: white;
+
+}
+#plataforma11 a{
+    right: 1450px;
+background-color: rgba(17, 39, 238, 0.589);
+border-radius: 40px; 
+color: white;
+padding: 30px 50px;
+text-decoration: none;
+font-size: 35px;
+display: inline-block;
+font-size: 20px;
+position: relative;
+top: -540px;
+    }
+    #plataforma11 a:hover{
+        background-color: rgba(0, 26, 255, 0.829);
+        border-radius: 40px; 
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        position: relative;
+        }
+#plataforma12{
+    width: 100%;
+    height: 850px;
+}
+#plataforma121 p{
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 70px;
+    width: 1100px;
+    height: auto;
+    text-align:justify;
+    padding-left: 100px;
+    color: white;
+
+}
+#plataforma12 img{
+    padding-left: 1100px;
+    width: 700px;
+    position: relative;
+    top: -600px;
+    right: 80px;
+    border: 5px solid rgba(236, 89, 89, 0.349);
+    border-radius: 10px;
+    filter: drop-shadow(30px 30px 30px rgba(0,0,0, 0.800));
+
+}
+#plataforma12 p{
+font-family: 'Jost', sans-serif;
+font-style:inherit;
+font-size: 35px;
+text-align:justify;
+width: 900px;
+height: auto;
+position: relative;
+top: 0px;
+left: 100px;
+color: white;
+
+}
+#plataforma12 a{
+    right: -180px;
+    background-color: rgba(236, 89, 89, 0.699);
+    border-radius: 40px; 
+    color: white;
+    padding: 30px 50px;
+    text-decoration: none;
+    font-size: 35px;
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    top: -550px;
+    }
+    #plataforma12 a:hover{
+        background-color: rgba(255, 0, 0, 0.801);
+        border-radius: 40px; 
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        position: relative;
+        }

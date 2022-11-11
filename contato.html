@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Arthur">
+    <meta name="keywords" content="curso, html, css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&family=Jost:wght@300;600;800&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Contato</title>
+</head>
+<body id="bodystyle">
+    <!--Início Header-->
+   
+    <div id="start">
+        <img src="img/bonsai_117773 (2).png">
+        <ul id="faixa">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="Sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+     
+    </div>
+    <div id="bodyzinho">
+    <div>
+        <h1 id="titulo">Cadastro</h1>
+        <p id="subtitulo">Complete suas informações</p>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div>
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+        </fieldset>
+        
+        <div class="campo">
+            <label for="email"><strong>Email</strong></label>
+            <input type="text" name="email" id="email" required>
+        </div>
+
+        
+        <div>
+            <label>Qual é seu estilo favorito de jogos?</label>
+            <select id="jogos">
+                <option selected disabled value="?">?</option>
+                <option>Jogos de Plataforma</option>
+                <option>Jogos de Tiro</option>
+                <option>Jogos de Luta</option>
+                <option>Jogos de Survival Horror</option>
+                <option>Jogos Sandbox</option>
+                <option>Jogos de ação-aventura</option>
+                <option>Jogos Puzzle</option>
+                <option>Jogos de Party Games</option>
+                <option>Jogos de Esporte</option>
+                <option>Jogos de Corrida</option>
+            </select>
+        </div>
+        <div>
+            <label>Qual é seu estilo favorito de música?</label>
+            <select id="musica">
+                <option selected disabled value="?">?</option>
+                <option>Disco</option>
+                <option>Eletronic Dance Music</option>
+                <option>Rock</option>
+                <option>Pop</option>
+                <option>Jazz</option>
+                <option>Heavy Metal</option>
+                <option> R&B (Rhythm and Blues)</option>
+                <option>Hip-Hop</option>
+                <option>Música sertaneja</option>
+                <option>Country</option>
+                <option>Pagode</option>
+                <option>Música clássica</option>
+
+
+            </select>
+        </div>
+        <div>
+            <label>Qual é seu estilo favorito de série?</label>
+            <select id="series">
+                <option selected disabled value="?">?</option>
+                <option>Drama</option>
+                <option>Ação</option>
+                <option>Comédia</option>
+                <option>Sitcom</option>
+                <option>Terror</option>
+                <option>Suspense</option>
+                <option>Investigação policial</option>
+                <option>Ficção-científica</option>
+                <option>Animação</option>
+                <option>Crime</option>
+                <option>Fantasia</option>
+                <option>Aventura</option>
+                <option>Comédia Dramática</option>
+            </select>
+        </div>
+        <div>
+            <label>Qual é seu estilo favorito de filmes?</label>
+            <select id="filme">
+                <option selected disabled value="?">?</option>
+                <option>Ação</option>
+                <option>Drama</option>
+                <option>Comédia</option>
+                <option>Romance</option>
+                <option>Terror</option>
+                <option>Suspense</option>
+                <option>Infantil</option>
+                <option>Ficção-científica</option>
+                <option>Animação</option>
+                <option>Crime</option>
+                <option>Fantasia</option>
+                <option>Aventura</option>
+                <option>Comédia Romântica</option>
+                <option>Biografia</option>
+                <option>Clássicos</option>
+                <option>Musical</option>
+                <option>Históricos</option>
+                <option>Guerra</option>
+
+
+            </select>
+        </div>
+        <br>
+        <div class="campo">
+            <label>Qual plataforma de jogos você utiliza ou mais gosta?</label>
+            <label>
+                <div id="Xbox">
+                <input type="radio" name="devweb" value="frontend" checked>Xbox
+            </div>
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="backend" checked>Playstation
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="fullstack" checked>Nintendo
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="fullstack" checked>Steam
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="fullstack" checked>Epic Games
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="fullstack" checked>Prime Gaming
+            </label>
+        </div>
+            <br>
+
+            <div class="campo">
+                <label>Qual aplicativo de música você utiliza ou mais gosta?</label>
+                <label>
+                    <input type="radio" name="devweb" value="frontend" checked>Spotify
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="backend" checked>Amazon Music
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="fullstack" checked>YouTube Music
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="fullstack" checked>Deezer
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="fullstack" checked>Apple Music
+            <label>
+                <input type="radio" name="devweb" value="fullstack" checked>Shazam
+            </label>
+        </div>
+        <br>
+
+        <div class="campo">
+            <label>Qual serviço de streaming você utiliza ou mais gosta?</label>
+            <label>
+                <input type="radio" name="devweb" value="frontend" checked>Netflix
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="backend" checked>Amazon Prime
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="fullstack" checked>Disney+
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="fullstack" checked>HBO MAK
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="fullstack" checked>STAR+
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="fullstack" checked>Netflix
+            </label>
+        </div>
+    <br>
+
+
+
+<div class="campo">
+    <br>
+    <label><strong>Comentários: </strong></label>
+    <textarea row="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+</div>
+
+<button class="botao" type="submit">Enviar</button>
+    </form>
+</div>
+<div id="menu">
+</div>
+    </body>
+</html>

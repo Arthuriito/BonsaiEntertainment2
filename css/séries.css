@@ -1,0 +1,919 @@
+*{
+    margin: -8;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: white;
+}
+#start{
+    background-color: rgb(29, 189, 136);
+    width: 100.83%;
+    height: 100px;
+    top: auto;
+    margin: -8px;
+    font-size:medium;
+    margin-top: -30px;
+}
+#start img{
+    position: absolute;
+    padding-left: 53px;
+    width: 83px;
+    margin-top: 5px;
+}
+#Fisk img{
+    position: absolute;
+    padding-left: 1800px;
+    width: 80px;
+    margin-top: -55px;
+}
+body{
+    overflow-x: hidden;
+}
+#start *{
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+}
+#start *:hover{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+#start ul{
+    display: flex;
+    padding-left: 640px;
+    width: 200px;
+    position: relative;
+    top: 30px;
+}
+#start ul li{
+    list-style-type: none;
+    padding-right: 200px;
+}
+#bodystyle{
+    background-color: rgb(73, 73, 73);   
+}
+#bb8{
+    background-color: rgb(255, 255, 255);   
+}
+#body1{
+    background-color: rgb(14, 1, 17);
+    width: auto;
+    margin: -8px;
+    position: relative;
+    height: 700px;
+}
+#body1 img{
+    width: 100%;
+    height: 130%;
+    object-fit: cover;
+    
+}
+#body1 p{
+    font-size: 100px;
+    width: 800px;
+    height: -200px;
+    color: rgb(255, 255, 255);;
+    position: relative;
+    top: -970px;
+    left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#espacinho{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+}
+#body2 p{
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 70px;
+    width: 1100px;
+    height: 200px;
+    text-align:justify;
+    padding-left: 40px;
+    top: 1000px;
+}
+#body3{
+    width: 100%;
+    height: 710px;
+}
+#body3 p{
+    font-family: 'Jost', sans-serif;
+    font-style:inherit;
+    font-size: 35px;
+    text-align:justify;
+    width: 990px;
+    height: auto;
+    position: relative;
+    top: 0px;
+    left: 40px;
+}
+
+#body3 img{
+    padding-left: 1260px;
+    width: 750px;
+    position: relative;
+    top: -600px;
+    right: 180px;
+    height: auto;
+    
+}
+#menu{
+    background-color: rgba(0, 255, 170, 0.466);
+    margin: -8px;
+    height: 300px;
+    position: relative;
+}
+#plataforma1 p{
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 70px;
+    width: 1100px;
+    height: auto;
+    text-align:justify;
+    padding-left: 40px;
+    color: white;
+
+}
+#plataforma2{
+    width: 100%;
+    height: 820px;
+}
+#plataforma2 img{
+        width: 400px;
+        position: absolute;
+        margin-top: -680px;
+        right: 600px;
+        display: inline-block;
+}
+#plataforma2 iframe{
+    width: 540px;
+    height: 355px;
+    position: absolute;
+    margin-top: -520px;
+    right: 50px;
+}
+
+#plataforma2 p{
+    font-family: 'Jost', sans-serif;
+    font-style:inherit;
+    font-size: 35px;
+    text-align:justify;
+    width: 800px;
+    height: auto;
+    position: relative;
+    top: 0px;
+    left: 60px;
+    color: white;
+
+}
+#plataforma2 a{
+right: 1400px;
+background-color: rgba(235, 20, 20, 0.534);
+border-radius: 40px; 
+color: white;
+padding: 30px 50px;
+text-decoration: none;
+font-size: 35px;
+display: inline-block;
+font-size: 20px;
+position: relative;
+top: -540px;
+}
+#plataforma2 a:hover{
+    background-color: rgba(255, 0, 0, 0.801);
+    border-radius: 40px; 
+    color: white;
+    padding: 40px 60px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    position: relative;
+    }
+#plataforma3{
+    width: 100%;
+    height: 930px;
+}
+#plataforma31 p{
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 70px;
+    width: 1100px;
+    height: auto;
+    text-align:justify;
+    padding-left: 1500px;
+    color: white;
+}
+#plataforma3 img{
+    width: 430px;
+        position: absolute;
+        margin-top: -750px;
+        right: 1450px;
+        display: inline-block;
+}
+#plataforma3 iframe{
+    width: 540px;
+    height: 355px;
+    position: absolute;
+    margin-top: -520px;
+    right: 900px;
+}
+
+#plataforma3 p{
+font-family: 'Jost', sans-serif;
+font-style:inherit;
+font-size: 35px;
+text-align:justify;
+width: 800px;
+height: auto;
+position: relative;
+top: 0px;
+left: 1050px;
+color: white;
+}
+#plataforma3 audio{
+    width: 400px;
+    position: absolute;
+    margin-top: -160px;
+    right: 1470px;
+}
+#plataforma3 a{
+    right: 1500px;
+background-color: rgba(235, 124, 20, 0.534);
+border-radius: 40px; 
+color: white;
+padding: 30px 50px;
+text-decoration: none;
+font-size: 35px;
+display: inline-block;
+font-size: 20px;
+position: relative;
+top: -540px;
+    }
+    #plataforma3 a:hover{
+        background-color: rgba(255, 105, 5, 0.808);
+        border-radius: 40px; 
+        color: white;
+        padding: 40px 60px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        position: relative;
+        }
+#plataforma4{
+    width: 100%;
+    height: 850px;
+}
+#plataforma41 p{
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 70px;
+    width: 1100px;
+    height: auto;
+    text-align:justify;
+    padding-left: 50px;
+    color: white;
+
+}
+#plataforma4 img{
+    width: 400px;
+    position: absolute;
+    margin-top: -690px;
+    right: 620px;
+    display: inline-block;
+}
+#plataforma4 iframe{
+    width: 540px;
+    height: 355px;
+    position: absolute;
+    margin-top: -520px;
+    right: 70px;
+}
+#plataforma4 p{
+font-family: 'Jost', sans-serif;
+font-style:inherit;
+font-size: 35px;
+text-align:justify;
+width: 800px;
+height: auto;
+position: relative;
+top: 0px;
+left: 50px;
+color: white;
+}
+#plataforma4 a{
+    right: -150px;
+    background-color: rgba(255, 252, 49, 0.637);
+    border-radius: 40px; 
+    color: white;
+    padding: 30px 50px;
+    text-decoration: none;
+    font-size: 35px;
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    top: -510px;
+    }
+    #plataforma4 a:hover{
+        background-color: rgba(255, 238, 0, 0.801);
+        border-radius: 40px; 
+        color: white;
+        padding: 40px 60px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        position: relative;
+        }
+#plataforma5{
+    width: 100%;
+    height: 835px;
+
+}
+#plataforma51 p{
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 70px;
+    width: 1100px;
+    height: auto;
+    text-align:justify;
+    padding-left: 1500px;
+    color: white;
+}
+#plataforma5 img{
+    width: 430px;
+        position: absolute;
+        margin-top: -630px;
+        right: 1450px;
+        display: inline-block;
+}
+#plataforma5 p{
+    font-family: 'Jost', sans-serif;
+    font-style:inherit;
+    font-size: 35px;
+    text-align:justify;
+    width: 800px;
+    height: auto;
+    position: relative;
+    top: 0px;
+    left: 1050px;
+    color: white;
+    }
+    #plataforma5 iframe{
+        width: 540px;
+        height: 355px;
+        position: absolute;
+        margin-top: -480px;
+        right: 900px;
+    }
+#plataforma5 a{
+    right: 1500px;
+    background-color: rgba(153, 90, 8, 0.514);
+    border-radius: 40px; 
+    color: white;
+    padding: 30px 50px;
+    text-decoration: none;
+    font-size: 35px;
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    top: -540px;
+    }
+    #plataforma5 a:hover{
+        background-color: rgba(133, 80, 11, 0.74);
+        border-radius: 40px; 
+        color: white;
+        padding: 40px 60px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        position: relative;
+        }
+        #plataforma6{
+            width: 100%;
+            height: 960px;
+        
+        }
+        #plataforma61 p{
+            font-family: 'Josefin Sans', 'bold', sans-serif;
+            font-size: 70px;
+            width: 1100px;
+            height: auto;
+            text-align:justify;
+            padding-left: 100px;
+            color: white;
+        
+        }
+        #plataforma6 img{
+            width: 420px;
+            position: absolute;
+            margin-top: -750px;
+            right: 600px;
+            display: inline-block;
+        }
+       
+        #plataforma6 iframe{
+            width: 540px;
+            height: 355px;
+            position: absolute;
+            margin-top: -580px;
+            right: 45px;
+        }
+        #plataforma6 p{
+        font-family: 'Jost', sans-serif;
+        font-style:inherit;
+        font-size: 35px;
+        text-align:justify;
+        width: 800px;
+        height: auto;
+        position: relative;
+        top: 0px;
+        left: 50px;
+        color: white;
+        }
+        #plataforma6 a{
+            right: -150px;
+            background-color: rgba(255, 252, 49, 0.637);
+            border-radius: 40px; 
+            color: white;
+            padding: 30px 50px;
+            text-decoration: none;
+            font-size: 35px;
+            display: inline-block;
+            font-size: 20px;
+            position: relative;
+            top: -510px;
+            }
+            #plataforma6 a:hover{
+                background-color: rgba(255, 238, 0, 0.801);
+                border-radius: 40px; 
+                color: white;
+                padding: 40px 60px;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 22px;
+                position: relative;
+                }
+#plataforma7{
+    width: 100%;
+    height: 870px;
+
+}
+#plataforma71 p{
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 70px;
+    width: 1100px;
+    height: auto;
+    text-align:justify;
+    padding-left: 1300px;
+    color: white;
+}
+#plataforma7 img{
+    width: 430px;
+        position: absolute;
+        margin-top: -630px;
+        right: 1450px;
+        display: inline-block;
+}
+#plataforma7 p{
+    font-family: 'Jost', sans-serif;
+    font-style:inherit;
+    font-size: 35px;
+    text-align:justify;
+    width: 800px;
+    height: auto;
+    position: relative;
+    top: 0px;
+    left: 1050px;
+    color: white;
+    }
+    #plataforma7 iframe{
+        width: 540px;
+        height: 355px;
+        position: absolute;
+        margin-top: -480px;
+        right: 880px;
+    }
+#plataforma7 a{
+    right: 1500px;
+    background-color: rgba(70, 235, 20, 0.534);
+    border-radius: 40px; 
+    color: white;
+    padding: 30px 50px;
+    text-decoration: none;
+    font-size: 35px;
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    top: -530px;
+    }
+    #plataforma7 a:hover{
+        background-color: rgba(0, 255, 34, 0.801);
+        border-radius: 40px; 
+        color: white;
+        padding: 40px 60px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        position: relative;
+        }
+#plataforma8{
+    width: 100%;
+    height: 950px;
+
+}
+#plataforma81 p{
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 70px;
+    width: 1100px;
+    height: auto;
+    text-align:justify;
+    padding-left: 100px;
+    color: white;
+
+}
+#plataforma8 img{
+    width: 420px;
+    position: absolute;
+    margin-top: -750px;
+    right: 600px;
+    display: inline-block;
+}
+
+#plataforma8 iframe{
+    width: 540px;
+    height: 355px;
+    position: absolute;
+    margin-top: -580px;
+    right: 45px;
+}
+#plataforma8 p{
+font-family: 'Jost', sans-serif;
+font-style:inherit;
+font-size: 35px;
+text-align:justify;
+width: 800px;
+height: auto;
+position: relative;
+top: 0px;
+left: 50px;
+color: white;
+}
+#plataforma8 a{
+    right: -150px;
+    background-color: rgba(194, 44, 44, 0.678);
+    border-radius: 40px; 
+    color: white;
+    padding: 30px 50px;
+    text-decoration: none;
+    font-size: 35px;
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    top: -570px;
+    }
+    #plataforma8 a:hover{
+        background-color: rgba(156, 18, 18, 0.801);
+        border-radius: 40px; 
+        color: white;
+        padding: 40px 60px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        position: relative;
+        }
+        #plataforma9{
+            width: 100%;
+            height: 870px;
+        
+        }
+        #plataforma91 p{
+            font-family: 'Josefin Sans', 'bold', sans-serif;
+            font-size: 70px;
+            width: 1100px;
+            height: auto;
+            text-align:justify;
+            padding-left: 1300px;
+            color: white;
+        }
+        #plataforma9 img{
+            width: 460px;
+                position: absolute;
+                margin-top: -630px;
+                right: 1430px;
+                display: inline-block;
+        }
+        #plataforma9 p{
+            font-family: 'Jost', sans-serif;
+            font-style:inherit;
+            font-size: 35px;
+            text-align:justify;
+            width: 800px;
+            height: auto;
+            position: relative;
+            top: 0px;
+            left: 1050px;
+            color: white;
+            }
+            #plataforma9 iframe{
+                width: 540px;
+                height: 355px;
+                position: absolute;
+                margin-top: -480px;
+                right: 880px;
+            }
+#plataforma9 a{
+    right: 1300px;
+    background-color: rgba(199, 186, 73, 0.616);
+    border-radius: 40px; 
+    color: white;
+    padding: 30px 50px;
+    text-decoration: none;
+    font-size: 35px;
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    top: -620px;
+    }
+    #plataforma9 a:hover{
+        background-color: rgba(199, 186, 73, 0.795);
+        border-radius: 40px; 
+        color: white;
+        padding: 40px 60px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        position: relative;
+        }
+        #plataforma10{
+            width: 100%;
+            height: 800px;
+        
+        }
+        #plataforma101 p{
+            font-family: 'Josefin Sans', 'bold', sans-serif;
+            font-size: 70px;
+            width: 1100px;
+            height: auto;
+            text-align:justify;
+            padding-left: 50px;
+            color: white;
+        
+        }
+        #plataforma10 img{
+            width: 420px;
+            position: absolute;
+            margin-top: -650px;
+            right: 580px;
+            display: inline-block;
+        }
+        
+        #plataforma10 iframe{
+            width: 540px;
+            height: 355px;
+            position: absolute;
+            margin-top: -540px;
+            right: 25px;
+        }
+#plataforma10 p{
+font-family: 'Jost', sans-serif;
+font-style:inherit;
+font-size: 35px;
+text-align:justify;
+width: 800px;
+height: auto;
+position: relative;
+top: 0px;
+left: 55px;
+color: white;
+
+}
+#plataforma10 a{
+    right: 1450px;
+background-color: rgba(228, 35, 228, 0.575);
+border-radius: 40px; 
+color: white;
+padding: 30px 50px;
+text-decoration: none;
+font-size: 35px;
+display: inline-block;
+font-size: 20px;
+position: relative;
+top: -360px;
+    }
+    #plataforma10 a:hover{
+        background-color: rgba(255, 0, 255, 0.767);
+        border-radius: 40px; 
+        color: white;
+        padding: 40px 60px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        position: relative;
+        }
+        #plataforma11{
+            width: 100%;
+            height: 900px;
+        
+        }
+        #plataforma111 p{
+            font-family: 'Josefin Sans', 'bold', sans-serif;
+            font-size: 70px;
+            width: 1100px;
+            height: auto;
+            text-align:justify;
+            padding-left: 1300px;
+            color: white;
+        }
+        #plataforma11 img{
+            width: 460px;
+                position: absolute;
+                margin-top: -720px;
+                right: 1430px;
+                display: inline-block;
+        }
+        #plataforma11 p{
+            font-family: 'Jost', sans-serif;
+            font-style:inherit;
+            font-size: 35px;
+            text-align:justify;
+            width: 800px;
+            height: auto;
+            position: relative;
+            top: 0px;
+            left: 1050px;
+            color: white;
+            }
+            #plataforma11 iframe{
+                width: 540px;
+                height: 355px;
+                position: absolute;
+                margin-top: -550px;
+                right: 880px;
+            }
+#plataforma11 a{
+    right: 1300px;
+    background-color: rgba(199, 186, 73, 0.616);
+    border-radius: 40px; 
+    color: white;
+    padding: 30px 50px;
+    text-decoration: none;
+    font-size: 35px;
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    top: -620px;
+    }
+    #plataforma11 a:hover{
+        background-color: rgba(199, 186, 73, 0.795);
+        border-radius: 40px; 
+        color: white;
+        padding: 40px 60px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        position: relative;
+        }
+        #plataforma12{
+            width: 100%;
+            height: 900px;
+        
+        }
+        #plataforma121 p{
+            font-family: 'Josefin Sans', 'bold', sans-serif;
+            font-size: 70px;
+            width: 1100px;
+            height: auto;
+            text-align:justify;
+            padding-left: 50px;
+            color: white;
+        
+        }
+        #plataforma12 img{
+            width: 420px;
+            position: absolute;
+            margin-top: -750px;
+            right: 580px;
+            display: inline-block;
+        }
+        
+        #plataforma12 iframe{
+            width: 540px;
+            height: 355px;
+            position: absolute;
+            margin-top: -590px;
+            right: 25px;
+        }
+#plataforma12 p{
+font-family: 'Jost', sans-serif;
+font-style:inherit;
+font-size: 35px;
+text-align:justify;
+width: 800px;
+height: auto;
+position: relative;
+top: 0px;
+left: 55px;
+color: white;
+
+}
+#plataforma13{
+    width: 100%;
+    height: 900px;
+
+}
+#plataforma131 p{
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 70px;
+    width: 1100px;
+    height: auto;
+    text-align:justify;
+    padding-left: 1300px;
+    color: white;
+}
+#plataforma13 img{
+    width: 460px;
+        position: absolute;
+        margin-top: -720px;
+        right: 1430px;
+        display: inline-block;
+}
+#plataforma13 p{
+    font-family: 'Jost', sans-serif;
+    font-style:inherit;
+    font-size: 35px;
+    text-align:justify;
+    width: 800px;
+    height: auto;
+    position: relative;
+    top: 0px;
+    left: 1050px;
+    color: white;
+    }
+    #plataforma13 iframe{
+        width: 540px;
+        height: 355px;
+        position: absolute;
+        margin-top: -550px;
+        right: 880px;
+    }
+#plataforma13 a{
+right: 1300px;
+background-color: rgba(199, 186, 73, 0.616);
+border-radius: 40px; 
+color: white;
+padding: 30px 50px;
+text-decoration: none;
+font-size: 35px;
+display: inline-block;
+font-size: 20px;
+position: relative;
+top: -620px;
+}
+#plataforma13 a:hover{
+background-color: rgba(199, 186, 73, 0.795);
+border-radius: 40px; 
+color: white;
+padding: 40px 60px;
+text-decoration: none;
+display: inline-block;
+font-size: 22px;
+position: relative;
+}
+                #plataforma14{
+                    width: 100%;
+                    height: 900px;
+                
+                }
+                
+                #plataforma141 p{
+                    font-family: 'Josefin Sans', 'bold', sans-serif;
+                    font-size: 70px;
+                    width: 1100px;
+                    height: auto;
+                    text-align:justify;
+                    padding-left: 50px;
+                    color: white;
+                
+                }
+                #plataforma14 img{
+                    width: 420px;
+                    position: absolute;
+                    margin-top: -750px;
+                    right: 580px;
+                    display: inline-block;
+                }
+                
+                #plataforma14 iframe{
+                    width: 540px;
+                    height: 355px;
+                    position: absolute;
+                    margin-top: -590px;
+                    right: 25px;
+                }
+                #plataforma14 p{
+                    font-family: 'Jost', sans-serif;
+                    font-style:inherit;
+                    font-size: 35px;
+                    text-align:justify;
+                    width: 800px;
+                    height: auto;
+                    position: relative;
+                    top: 0px;
+                    left: 55px;
+                    color: white;
+                    
+                    }

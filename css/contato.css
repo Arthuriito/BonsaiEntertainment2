@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+
+body{
+    background-color: rgb(73, 73, 73); 
+}
+
+.texto{
+    font-family: 'Ramabhadra', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.img1{
+    position: absolute;
+    left: 83%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.img2{
+    position: absolute;
+    left: 63%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.img3{
+    position: absolute;
+    left: 43%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.img4{
+    position: absolute;
+    left: 23%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.img5{
+    position: absolute;
+    left: 3%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+*{
+    margin: -8;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: white;
+}
+#start{
+    background-color: rgb(29, 189, 136);
+    width: 100.83%;
+    height: 100px;
+    top: auto;
+    margin: -8px;
+    font-size:medium;
+    margin-top: -30px;
+}
+#start img{
+    position: absolute;
+    padding-left: 53px;
+    width: 83px;
+    margin-top: 5px;
+}
+#Fisk img{
+    position: absolute;
+    padding-left: 1800px;
+    width: 80px;
+    margin-top: -55px;
+}
+body{
+    overflow-x: hidden;
+}
+#start *{
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+}
+#start *:hover{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+#start ul{
+    display: flex;
+    padding-left: 640px;
+    width: 200px;
+    position: relative;
+    top: 30px;
+}
+#start ul li{
+    list-style-type: none;
+    padding-right: 200px;
+}
+#bodystyle{
+    background-color: rgb(73, 73, 73); 
+
+}
+#body1{
+    width: 100%;
+    margin: -8px;
+    position: relative;
+    height: 750px;
+}
+#body1 video{
+    width: 110%;
+    height: 119%;
+    object-fit: cover;
+}
+
+#body1 p{
+    font-size: 100px;
+    width: 1000px;
+    height: -200px;
+    color: white;
+    position: relative;
+    top: -700px;
+    left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#bb8{
+    background-color: rgb(73, 73, 73); 
+}
+#espacinho{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+}
+#paia{
+    height: 1000px;
+    width: 120px;
+}
+#body2 p{
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 70px;
+    width: 1100px;
+    height: 100%;
+    text-align:justify;
+    padding-left: 40px;
+    
+}
+#body3{
+    width: 100%;
+    height: 450px;
+}
+#body3 p{
+    font-family: 'Jost', sans-serif;
+    font-style:inherit;
+    font-size: 35px;
+    text-align:justify;
+    width: 1500px;
+    height: 100%;
+    position: relative;
+    top: 0px;
+    left: 40px;
+    
+}
+
+#body3 img{
+    padding-left: 1140px;
+    width: 750px;
+    position: relative;
+    top: -490px;
+    right: 170px;
+    height: 100%;
+    border: 5px solid rgba(45, 42, 119, 0.349);
+    border-radius: 10px;
+}
+#bodyzinho{
+    left: 50%;
+}
+#menu{
+    background-color: rgba(0, 255, 170, 0.466);
+    margin: -8px;
+    height: 300px;
+    position: relative;
+}
+#body{
+    background-color: gray;
+}
+body{
+    overflow-x: hidden;
+}
+
+#titulo{
+    font-family: sans-serif;
+    color: rgb(29, 189, 136);
+    margin-left: 5%;
+}
+#subtitulo{
+    font-family: sans-serif;
+    color: rgb(29, 189, 136);
+    margin-left: 5%;
+}
+
+fieldset{
+    border:0;
+}
+
+body{
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: rgb(29, 189, 136);
+    justify-content: center;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: rgb(29, 189, 136);
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid rgb(29, 189, 136);
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    display: block;
+}
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background-color: aliceblue;
+}
+
+.botao{
+    font-size: 1.2em;
+    background: rgb(29, 189, 136);
+    border: 5px;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px #000010;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover{
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0,2);
+    text-shadow: none;
+}
+
+.botao, select{
+    cursor: pointer;
+}
+
+#check{
+    display: inline-block;
+}
+#Disney img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 40%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Disney img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Star img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 50%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Star img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Hbo img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 60%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Hbo img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Paramount img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 70%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Paramount img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Prime img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 80%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Prime img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Netflix img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 90%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Netflix img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Spotify img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 1%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Spotify img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Amazon img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 10%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Amazon img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#YouTube img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 20%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#YouTube img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Deezer img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 30%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Deezer img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Apple img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 40%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Apple img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Shazam img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 50%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Shazam img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Xbox img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Xbox img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Playstation img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 10%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Playstation img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Nintendo img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 20%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Nintendo img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Steam img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 30%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Steam img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#Epic img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 40%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#Epic img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+#primegaming img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 50%;
+    transition: 500ms ease 100ms;
+    margin-top: -200px;
+}
+#primegaming img:hover{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}

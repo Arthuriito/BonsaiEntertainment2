@@ -1,0 +1,807 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+
+body{
+    background-color: rgb(41, 41, 41); 
+}
+#flor-preta{
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(96, 109, 104));
+
+}
+#cadeirante{
+    height: 310px;
+}
+
+.texto{
+    font-family: 'Ramabhadra', sans-serif;
+    text-align: center;
+    color: white;
+
+}
+#Homelander p{
+    position: absolute;
+    left: 42%;
+    object-fit: cover;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: -165px;
+    transition: 500ms ease 100ms;
+}
+#Eminem p{
+    position: absolute;
+    left: 22%;
+    object-fit: cover;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: -165px;
+    transition: 500ms ease 100ms;
+}
+#Astrid p{
+    position: absolute;
+    left: 52%;
+    object-fit: cover;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 320px;
+    transition: 500ms ease 100ms;
+}
+#Shazam p{
+    position: absolute;
+    left: 2%;
+    object-fit: cover;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: -165px;
+    transition: 500ms ease 100ms;
+}
+#Rock p{
+    position: absolute;
+    left: 62%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: -165px;
+    transition: 500ms ease 100ms;
+}
+#Deadpool p{
+    position: absolute;
+    left: 82%;
+    object-fit: cover;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: -165px;
+    transition: 500ms ease 100ms;
+}
+#Billie p{
+    position: absolute;
+    left: 32%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 320px;
+    transition: 500ms ease 100ms;
+}
+.img1{
+    position: absolute;
+    left: 82%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: -165px;
+    transition: 500ms ease 100ms;
+}
+.img2{
+    position: absolute;
+    left: 62%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: -165px;
+    transition: 500ms ease 100ms;
+}
+.img3{
+    position: absolute;
+    left: 42%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: -165px;
+    transition: 500ms ease 100ms;
+}
+.img4{
+    position: absolute;
+    left: 22%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: -165px;
+    transition: 500ms ease 100ms;
+}
+.img5{
+    position: absolute;
+    left: 2%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: -165px;
+    transition: 500ms ease 100ms;
+}
+.img6{
+    position: absolute;
+    left: 32%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 320px;
+    transition: 500ms ease 100ms;
+}
+.img7{
+    position: absolute;
+    left: 52%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 320px;
+    transition: 500ms ease 100ms;
+}
+.img11{
+    position: absolute;
+    left: 82%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: -165px;
+    transition: 500ms ease 100ms;
+}
+.img22{
+    position: absolute;
+    left: 62%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: -165px;
+    transition: 500ms ease 100ms;
+}
+
+.img33{
+    position: absolute;
+    left: 42%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: -165px;
+    transition: 500ms ease 100ms;
+}
+.img44{
+    position: absolute;
+    left: 22%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: -165px;
+    transition: 500ms ease 100ms;
+}
+.img55{
+    position: absolute;
+    left: 2%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: -165px;
+    transition: 500ms ease 100ms;
+}
+.img66{
+    position: absolute;
+    left: 32%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 320px;
+    transition: 500ms ease 100ms;
+}
+.img77{
+    position: absolute;
+    left: 52%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 320px;
+    transition: 500ms ease 100ms;
+}
+
+div.tres {
+    width: 30px;
+    height: 140px;
+    border: 150px solid;
+    border-color: rgba(255, 255, 255, 0.89);
+    position: absolute;
+    left: 81.2%;
+    margin-top: -180px;
+}
+div.tresinho {
+    width: 30px;
+    height: 140px;
+    border: 150px solid;
+    border-color: rgba(255, 255, 255, 0.89);
+    position: absolute;
+    left: 61.2%;
+    margin-top: -180px;
+}
+div.tresão {
+    width: 30px;
+    height: 140px;
+    border: 150px solid;
+    border-color: rgba(255, 255, 255, 0.89);
+    position: absolute;
+    left: 41.2%;
+    margin-top: -180px;
+}
+div.tressin {
+    width: 30px;
+    height: 140px;
+    border: 150px solid;
+    border-color: rgba(255, 255, 255, 0.89);
+    position: absolute;
+    left: 21.2%;
+    margin-top: -180px;
+}
+div.tresaço {
+    width: 30px;
+    height: 140px;
+    border: 150px solid;
+    border-color: rgba(255, 255, 255, 0.89);
+    position: absolute;
+    left: 51.2%;
+    margin-top: 300px;
+}
+div.three {
+    width: 30px;
+    height: 140px;
+    border: 150px solid;
+    border-color: rgba(255, 255, 255, 0.89);
+    position: absolute;
+    left: 31.2%;
+    margin-top: 300px;
+}
+div.TRES {
+    width: 30px;
+    height: 140px;
+    border: 150px solid;
+    border-color: rgba(255, 255, 255, 0.89);
+    position: absolute;
+    left: 1.2%;
+    margin-top: -180px;
+}
+div
+*{
+    margin: -8;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: white;
+}
+#start{
+    background-color: rgb(29, 189, 136);
+    width: 100.83%;
+    height: 100px;
+    top: auto;
+    margin: -8px;
+    font-size:medium;
+    margin-top: -30px;
+}
+#start img{
+    position: absolute;
+    padding-left: 53px;
+    width: 83px;
+    margin-top: 5px;
+}
+#Fisk img{
+    position: absolute;
+    padding-left: 1800px;
+    width: 80px;
+    margin-top: -55px;
+}
+#menu{
+    background-color: rgba(0, 255, 170, 0.466);
+    margin: -8px;
+    height: 300px;
+    position: relative;
+}
+body{
+    overflow-x: hidden;
+}
+#start *{
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+}
+#start *:hover{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+#start ul{
+    display: flex;
+    padding-left: 640px;
+    width: 200px;
+    position: relative;
+    top: 30px;
+}
+#start ul li{
+    list-style-type: none;
+    padding-right: 200px;
+}
+#bodystyle{
+    background-color: rgb(73, 73, 73);
+}
+#body1{
+    width: 100%;
+    margin: -8px;
+    position: relative;
+    height: 750px;
+}
+#body1 video{
+    width: 110%;
+    height: 119%;
+    object-fit: cover;
+}
+#body1 img{
+    width: 110%;
+    height: 119%;
+    object-fit: cover;
+}
+
+#body1 p{
+    font-size: 100px;
+    width: 820px;
+    height: -200px;
+    color: rgb(255, 255, 255);;
+    position: relative;
+    top: -970px;
+    left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#bb8{
+    background-color: rgb(73, 73, 73); 
+}
+#espacinho{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+}
+.ui hr{
+    color: white;
+}
+#paia{
+    height: 600px;
+    width: 100%;
+}
+.img1:hover{
+    width: 350px;
+   height: 350px;
+   position: absolute;
+   opacity: 0%;
+ }
+ .img2:hover{
+    width: 350px;
+   height: 350px;
+   position: absolute;
+   opacity: 0%;
+  }
+  .img3:hover{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    opacity: 0%;
+}
+.img4:hover{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    opacity: 0%;
+}
+.img5:hover{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    opacity: 0%;
+}
+.img6:hover{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    opacity: 0%;
+}
+.img77:hover{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    opacity: 0%;
+}
+.img11:hover{
+    width: 350px;
+   height: 350px;
+   position: absolute;
+   opacity: 0%;
+ }
+ .img22:hover{
+    width: 350px;
+   height: 350px;
+   position: absolute;
+   opacity: 0%;
+  }
+  .img33:hover{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    opacity: 0%;
+}
+.img44:hover{
+    width: 350px;
+   height: 350px;
+    position: relative;
+    opacity: 0%;
+}
+.img55:hover{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    opacity: 0%;
+}
+.img66:hover{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    opacity: 0%;
+}
+.img77:hover{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    opacity: 0%;
+}
+#plataforma1 p{
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 70px;
+    width: 1100px;
+    height: auto;
+    text-align:justify;
+    padding-left: 40px;
+    color: white;
+
+}
+#plataforma2{
+    width: 100%;
+    height: 600px;
+}
+#plataforma2 img{
+        width: 760px;
+        position: absolute;
+        margin-top: -970px;
+        right: 240px;
+        display: inline-block;
+        filter: drop-shadow(30px 30px 30px rgba(0,0,0, 0.800));
+
+}
+#plataforma2 iframe{
+    width: 670px;
+    height: 485px;
+    position: absolute;
+    margin-top: -740px;
+    right: 1140px;
+}
+
+#plataforma2 p{
+    font-family: 'Jost', sans-serif;
+    font-style:inherit;
+    font-size: 32px;
+    text-align:justify;
+    width: 800px;
+    height: auto;
+    position: relative;
+    top: 0px;
+    left: 600000000px;
+    color: white;
+
+}
+#plataforma3{
+    width: 100%;
+    height: 600px;
+}
+#plataforma31 p{
+    font-family: 'Josefin Sans', 'bold', sans-serif;
+    font-size: 70px;
+    width: 1100px;
+    height: auto;
+    text-align:justify;
+    padding-left: 1500px;
+    color: white;
+}
+#plataforma3 img{
+    width: 600px;
+    position: absolute;
+    margin-top: -924px;
+    display: inline-block;
+    filter: drop-shadow(30px 30px 30px rgba(0,0,0, 0.800));
+    left: 100px;
+}
+#plataforma3 iframe{
+width: 670px;
+height: 485px;
+position: absolute;
+margin-top: -740px;
+left: 1150px;
+}
+
+#plataforma3 p{
+font-family: 'Jost', sans-serif;
+font-style:inherit;
+font-size: 32px;
+text-align:justify;
+width: 800px;
+height: auto;
+position: relative;
+top: 0px;
+left: 600000000px;
+color: white;
+}
+#plataforma3 audio{
+    width: 400px;
+    position: absolute;
+    margin-top: -160px;
+    right: 1470px;
+}
+#plataforma3 a{
+    right: 1500px;
+background-color: rgba(235, 124, 20, 0.534);
+border-radius: 40px; 
+color: white;
+padding: 30px 50px;
+text-decoration: none;
+font-size: 35px;
+display: inline-block;
+font-size: 20px;
+position: relative;
+top: -540px;
+    }
+    #plataforma3 a:hover{
+        background-color: rgba(255, 105, 5, 0.808);
+        border-radius: 40px; 
+        color: white;
+        padding: 40px 60px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        position: relative;
+        }
+        #plataforma41 p{
+            font-family: 'Josefin Sans', 'bold', sans-serif;
+            font-size: 70px;
+            width: 1100px;
+            height: auto;
+            text-align:justify;
+            padding-left: 40px;
+            color: white;
+        
+        }
+        #plataforma4{
+            width: 100%;
+            height: 600px;
+        }
+        #plataforma4 img{
+            width: 450px;
+            position: absolute;
+            margin-top: -945px;
+            right: 240px;
+            display: inline-block;
+            filter: drop-shadow(30px 30px 30px rgba(0,0,0, 0.800));
+    
+    }
+    #plataforma4 iframe{
+        width: 670px;
+        height: 485px;
+        position: absolute;
+        margin-top: -740px;
+        right: 1140px;
+    }
+        
+        #plataforma4 p{
+            font-family: 'Jost', sans-serif;
+            font-style:inherit;
+            font-size: 32px;
+            text-align:justify;
+            width: 800px;
+            height: auto;
+            position: relative;
+            top: 0px;
+            left: 600000000px;
+            color: rgba(255, 255, 255, 0);
+            
+        
+        }
+        #plataforma5{
+            width: 100%;
+            height: 600px;
+        }
+        #plataforma51 p{
+            font-family: 'Josefin Sans', 'bold', sans-serif;
+            font-size: 70px;
+            width: 1100px;
+            height: auto;
+            text-align:justify;
+            padding-left: 40px;
+            color: white;
+        
+        }
+        #plataforma5 img{
+            width: 1100px;
+            position: absolute;
+            margin-top: -938px;
+            right: -1px;
+            display: inline-block;
+            filter: drop-shadow(30px 30px 30px rgba(0,0,0, 0.800));
+    
+    }
+    #plataforma5 iframe{
+        width: 670px;
+        height: 485px;
+        position: absolute;
+        margin-top: -740px;
+        right: 1140px;
+    }
+        
+        
+        #plataforma5 p{
+        font-family: 'Jost', sans-serif;
+        font-style:inherit;
+        font-size: 32px;
+        text-align:justify;
+        width: 800px;
+        height: auto;
+        position: relative;
+        top: 0px;
+        left: 600000000px;
+        color: white;
+        }
+        #plataforma6{
+            width: 100%;
+            height: 600px;
+        }
+        #plataforma61 p{
+            font-family: 'Josefin Sans', 'bold', sans-serif;
+            font-size: 70px;
+            width: 1100px;
+            height: auto;
+            text-align:justify;
+            padding-left: 1500px;
+            color: white;
+        }
+        #plataforma6 img{
+            width: 750px;
+            position: absolute;
+            margin-top: -890px;
+            display: inline-block;
+            filter: drop-shadow(30px 30px 30px rgba(0,0,0, 0.800));
+            left: 100px;
+        }
+        #plataforma6 iframe{
+        width: 670px;
+        height: 485px;
+        position: absolute;
+        margin-top: -740px;
+        left: 1150px;
+        }
+        #plataforma6 p{
+            font-family: 'Jost', sans-serif;
+            font-style:inherit;
+            font-size: 32px;
+            text-align:justify;
+            width: 800px;
+            height: auto;
+            position: relative;
+            top: 0px;
+            left: 600000000px;
+            color: rgba(255, 255, 255, 0);
+            
+        
+        }
+        #plataforma8{
+            width: 100%;
+            height: 600px;
+        }
+        #plataforma81 p{
+            font-family: 'Josefin Sans', 'bold', sans-serif;
+            font-size: 70px;
+            width: 1100px;
+            height: auto;
+            text-align:justify;
+            padding-left: 1500px;
+            color: white;
+        }
+        #plataforma8 img{
+            width: 900px;
+            position: absolute;
+            margin-top: -928px;
+            display: inline-block;
+            filter: drop-shadow(30px 30px 30px rgba(0,0,0, 0.800));
+            left: 100px;
+        }
+        #plataforma8 iframe{
+        width: 670px;
+        height: 485px;
+        position: absolute;
+        margin-top: -740px;
+        left: 1150px;
+        }
+        #plataforma8 p{
+            font-family: 'Jost', sans-serif;
+            font-style:inherit;
+            font-size: 32px;
+            text-align:justify;
+            width: 800px;
+            height: auto;
+            position: relative;
+            top: 0px;
+            left: 600000000px;
+            color: rgba(255, 255, 255, 0);
+            
+        
+        }
+        #plataforma9{
+            width: 100%;
+            height: 600px;
+        }
+        #plataforma91 p{
+            font-family: 'Josefin Sans', 'bold', sans-serif;
+            font-size: 70px;
+            width: 1100px;
+            height: auto;
+            text-align:justify;
+            padding-left: 40px;
+            color: white;
+        
+        }
+        #plataforma9 img{
+            width: 425px;
+            position: absolute;
+            margin-top: -978px;
+            right: -1px;
+            display: inline-block;
+            filter: drop-shadow(30px 30px 30px rgba(0,0,0, 0.800));
+    
+    }
+    #plataforma9 iframe{
+        width: 670px;
+        height: 485px;
+        position: absolute;
+        margin-top: -740px;
+        right: 1140px;
+    }
+        
+        
+        #plataforma9 p{
+        font-family: 'Jost', sans-serif;
+        font-style:inherit;
+        font-size: 32px;
+        text-align:justify;
+        width: 800px;
+        height: auto;
+        position: relative;
+        top: 0px;
+        left: 600000000px;
+        color: white;
+        }
